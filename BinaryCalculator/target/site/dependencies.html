@@ -57,7 +57,22 @@
     <div id="bodyColumn">
       <div id="contentBox">
 <a name="Project_Dependencies"></a><section>
-<h2><a name="Project_Dependencies"></a>Project Dependencies</h2><a name="Project_Dependencies_test"></a><section>
+<h2><a name="Project_Dependencies"></a>Project Dependencies</h2><a name="Project_Dependencies_compile"></a><section>
+<h3><a name="compile"></a>compile</h3>
+<p>The following is a list of compile dependencies for this project. These dependencies are required to compile and run the application:</p>
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>GroupId</th>
+<th>ArtifactId</th>
+<th>Version</th>
+<th>Type</th>
+<th>Licenses</th></tr>
+<tr class="b">
+<td align="left">joda-time</td>
+<td><a class="externalLink" href="http://www.joda.org/joda-time/">joda-time</a></td>
+<td>2.9.2</td>
+<td>jar</td>
+<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">Apache 2</a></td></tr></table></section><a name="Project_Dependencies_test"></a><section>
 <h3><a name="test"></a>test</h3>
 <p>The following is a list of test dependencies for this project. These dependencies are only required to compile and run unit tests for the application:</p>
 <table border="0" class="bodyTable">
@@ -184,8 +199,18 @@
 <td align="left">
 <p><b>Description: </b>Module &quot;junit-jupiter-params&quot; of JUnit 5.</p>
 <p><b>URL: </b><a class="externalLink" href="https://junit.org/junit5/">https://junit.org/junit5/</a></p>
-<p><b>Project Licenses: </b><a class="externalLink" href="https://www.eclipse.org/legal/epl-v20.html">Eclipse Public License v2.0</a></p></td></tr></table></div></li></ul></li></ul></section></section><a name="Licenses"></a><section>
+<p><b>Project Licenses: </b><a class="externalLink" href="https://www.eclipse.org/legal/epl-v20.html">Eclipse Public License v2.0</a></p></td></tr></table></div></li>
+<li>joda-time:joda-time:jar:2.9.2 (compile) <img id="_img13" src="./images/icon_info_sml.gif" alt="[Information]" onclick="toggleDependencyDetails( '_dep12', '_img13' );" style="cursor: pointer; vertical-align: text-bottom;" /><div id="_dep12" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Joda-Time</th></tr>
+<tr class="b">
+<td align="left">
+<p><b>Description: </b>Date and time library to replace JDK date handling</p>
+<p><b>URL: </b><a class="externalLink" href="http://www.joda.org/joda-time/">http://www.joda.org/joda-time/</a></p>
+<p><b>Project Licenses: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">Apache 2</a></p></td></tr></table></div></li></ul></li></ul></section></section><a name="Licenses"></a><section>
 <h2><a name="Licenses"></a>Licenses</h2>
+<p><b>Apache 2: </b>Joda-Time</p>
 <p><b>Unknown: </b>BinaryCalculator</p>
 <p><b>The Apache License, Version 2.0: </b>org.apiguardian:apiguardian-api, org.opentest4j:opentest4j</p>
 <p><b>Eclipse Public License v2.0: </b>JUnit Jupiter API, JUnit Jupiter Params, JUnit Platform Commons</p></section><a name="Dependency_File_Details"></a><section>
@@ -200,6 +225,14 @@
 <th>Java Version</th>
 <th title="Indicates whether these dependencies have been compiled with debug information.">Debug Information</th></tr>
 <tr class="b">
+<td align="left">joda-time-2.9.2.jar</td>
+<td align="right">625.6 kB</td>
+<td align="right">752</td>
+<td align="right">246</td>
+<td align="right">7</td>
+<td align="center">1.5</td>
+<td align="center">Yes</td></tr>
+<tr class="a">
 <td align="left">apiguardian-api-1.1.2.jar</td>
 <td align="right">6.8 kB</td>
 <td align="right">9</td>
@@ -207,7 +240,7 @@
 <td align="right">2</td>
 <td align="center">1.6</td>
 <td align="center">Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <td align="left">junit-jupiter-api-5.11.0.jar</td>
 <td align="right">216.3 kB</td>
 <td align="right">197</td>
@@ -215,7 +248,7 @@
 <td align="right">8</td>
 <td align="center">1.8</td>
 <td align="center">Yes</td></tr>
-<tr class="b">
+<tr class="a">
 <td align="left">junit-jupiter-params-5.11.0.jar</td>
 <td align="right">591.4 kB</td>
 <td align="right">388</td>
@@ -223,7 +256,7 @@
 <td align="right">22</td>
 <td align="center">1.8</td>
 <td align="center">Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <td align="left">junit-platform-commons-1.11.0.jar</td>
 <td align="right">140.6 kB</td>
 <td align="right">86</td>
@@ -231,7 +264,7 @@
 <td align="right">-</td>
 <td align="center">-</td>
 <td align="center">-</td></tr>
-<tr class="b">
+<tr class="a">
 <td align="left">&#160;&#160;&#160;&#x2022; Root</td>
 <td align="right">-</td>
 <td align="right">77</td>
@@ -239,7 +272,7 @@
 <td align="right">8</td>
 <td align="center">1.8</td>
 <td align="center">Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <td align="left">&#160;&#160;&#160;&#x2022; Versioned</td>
 <td align="right">-</td>
 <td align="right">9</td>
@@ -247,7 +280,7 @@
 <td align="right">1</td>
 <td align="center">9</td>
 <td align="center">Yes</td></tr>
-<tr class="b">
+<tr class="a">
 <td align="left">opentest4j-1.3.0.jar</td>
 <td align="right">14.3 kB</td>
 <td align="right">15</td>
@@ -255,7 +288,7 @@
 <td align="right">2</td>
 <td align="center">1.6</td>
 <td align="center">Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <th>Total</th>
 <th>Size</th>
 <th>Entries</th>
@@ -263,14 +296,22 @@
 <th>Packages</th>
 <th>Java Version</th>
 <th>Debug Information</th></tr>
-<tr class="b">
-<td align="right">5</td>
-<td align="right">969.5 kB</td>
-<td align="right">695</td>
-<td align="right">611</td>
-<td align="right">42</td>
+<tr class="a">
+<td align="right">6</td>
+<td align="right">1.6 MB</td>
+<td align="right">1447</td>
+<td align="right">857</td>
+<td align="right">49</td>
 <td align="center">1.8</td>
-<td align="right">5</td></tr>
+<td align="right">6</td></tr>
+<tr class="b">
+<td align="right">compile: 1</td>
+<td align="right">compile: 625.6 kB</td>
+<td align="right">compile: 752</td>
+<td align="right">compile: 246</td>
+<td align="right">compile: 7</td>
+<td align="center">1.5</td>
+<td align="right">compile: 1</td></tr>
 <tr class="a">
 <td align="right">test: 5</td>
 <td align="right">test: 969.5 kB</td>
