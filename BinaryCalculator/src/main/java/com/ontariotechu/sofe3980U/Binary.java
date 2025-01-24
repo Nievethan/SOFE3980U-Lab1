@@ -36,11 +36,11 @@ public class Binary
 		this.number = (beg == number.length()) ? "0" : number.substring(beg);
 	
 		// uncomment the following code
-		/*
+		
 		if (this.number.isEmpty()) { // replace empty strings with a single zero
 			this.number = "0";
 		}
-  		*/
+  		
 	}
 	/**
 	* Return the binary value of the variable
