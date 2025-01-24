@@ -116,4 +116,25 @@ public class Binary
 
 		return new Binary(result.toString()); //Reformatting as Binary
 	}
+	
+	public static Binary multiply(Binary num1, Binary num2) {
+		if (num1.number.equals("0") || num2.number.equals("0")) { //multiply by zero handling
+			return new Binary("0");
+		}
+	
+		int length1 = num1.number.length();
+		int length2 = num2.number.length();
+	
+		Binary result = new Binary("0");   // Initialize the result as a binary number
+	
+		
+		for (int i = length2 - 1; i >= 0; i--) {   // Perform multiplication bit by bit
+			if (num2.number.charAt(i) == '1') {   
+				String shiftedNum1 = num1.number + "0".repeat(length2 - 1 - i);   // Shift num1 
+				result = Binary.add(result, new Binary(shiftedNum1));   // Add the shifted number to the result
+			}
+		}
+	
+		return result;
+	}
 }

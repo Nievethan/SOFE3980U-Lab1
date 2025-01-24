@@ -29,5 +29,8 @@ public class App
 
         Binary and = Binary.and(binary1, binary2);
         System.out.println("When both are passed through an AND gate: " + and.getValue());
+
+        Binary multiply = Binary.multiply(binary1, binary2);
+        System.out.println("When both are multiplied: " + multiply.getValue());
     }
 }
