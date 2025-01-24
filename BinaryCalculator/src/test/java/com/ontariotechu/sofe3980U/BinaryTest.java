@@ -1,5 +1,6 @@
 package com.ontariotechu.sofe3980U;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;;
@@ -213,5 +214,38 @@ public class BinaryTest
         Binary binary3 = Binary.and(binary1, binary2);
         
         assertTrue(binary3.getValue().equals("1"));
+    }
+    /**
+     * Testing general multiplication functionality
+     */
+    @Test
+    public void multiply() {
+        Binary binary1 = new Binary("101");   
+        Binary binary2 = new Binary("11");    
+        Binary binary3 = Binary.multiply(binary1, binary2);
+        
+        assertTrue(binary3.getValue().equals("1111"));
+    }
+    /**
+     * Testing multiply by zero
+     */
+    @Test
+    public void multiplyZero() {
+        Binary binary1 = new Binary("1111");   
+        Binary binary2 = new Binary("0");    
+        Binary binary3 = Binary.multiply(binary1, binary2);
+        
+        assertTrue(binary3.getValue().equals("0"));
+    }
+    /**
+     * Testing multiply by one
+     */
+    @Test
+    public void multiplyOne() {
+        Binary binary1 = new Binary("1001");   
+        Binary binary2 = new Binary("1");    
+        Binary binary3 = Binary.multiply(binary1, binary2);
+        
+        assertTrue(binary3.getValue().equals("1001"));
     }
 }
