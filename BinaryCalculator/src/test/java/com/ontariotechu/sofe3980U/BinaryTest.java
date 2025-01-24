@@ -118,4 +118,53 @@ public class BinaryTest
 		Binary binary3 = Binary.add(binary1,binary2);
         assertTrue( binary3.getValue().equals("0"));
     }
+    /**
+     * Testing or function with different binary lengths
+     */
+    @Test
+    public void orDiffLen()
+    {
+        Binary binary1 = new Binary("1101");
+        Binary binary2 = new Binary("1");
+        Binary binary3 = Binary.or(binary1, binary2);
+        
+        assertTrue(binary3.getValue().equals("1101"));
+    }
+    /**
+     * Testing or function with the same binary lengths
+     */
+    @Test
+    public void orSameLen()
+    {
+        Binary binary1 = new Binary("101");
+        Binary binary2 = new Binary("001");
+        Binary binary3 = Binary.or(binary1, binary2);
+        
+        assertTrue(binary3.getValue().equals("101"));
+    }
+    /**
+     * Testing or function with all zeros
+     */
+    @Test
+    public void orAllZero()
+    {
+        Binary binary1 = new Binary("0");
+        Binary binary2 = new Binary("0");
+        Binary binary3 = Binary.or(binary1, binary2);
+        
+        assertTrue(binary3.getValue().equals("0"));
+    }
+    /**
+     * Testing or function with all ones
+     */
+    @Test
+    public void orAllOne()
+    {
+        Binary binary1 = new Binary("1111");
+        Binary binary2 = new Binary("1");
+        Binary binary3 = Binary.or(binary1, binary2);
+        
+        assertTrue(binary3.getValue().equals("1111"));
+    }
+
 }

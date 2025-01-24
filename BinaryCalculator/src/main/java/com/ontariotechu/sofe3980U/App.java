@@ -21,10 +21,10 @@ public class App
         Binary binary2 = new Binary("111000");
         System.out.println( "Second binary number is " + binary2.getValue());
 		
-        Binary sum = Binary.add(binary1,binary2);
+        Binary sum = Binary.add(binary1, binary2);
 		System.out.println( "Their summation is " + sum.getValue());
 
-        Binary binOr = Binary.or(binary1, binary2);
-        System.out.println("When both are passed through an OR gate: " + binOr.getValue());
+        Binary or = Binary.or(binary1, binary2);
+        System.out.println("When both are passed through an OR gate: " + or.getValue());
     }
 }
