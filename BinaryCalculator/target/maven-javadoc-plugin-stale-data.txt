@@ -30,17 +30,17 @@
 com.ontariotechu.sofe3980U
 'C:/Users/nieve/Desktop/Sofware Quality and Project Management/Labs/Lab 1/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/BinaryTest.java'
 C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\src\test\java = 1737656218712
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\generated-test-sources\test-annotations = 1737742580511
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\allclasses-index.html = 1737742582999
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\allpackages-index.html = 1737742583001
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\element-list = 1737742582966
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\help-doc.html = 1737742583023
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\index-all.html = 1737742583013
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\index.html = 1737742583020
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\member-search-index.js = 1737742583005
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\module-search-index.js = 1737742583002
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\overview-tree.html = 1737742582991
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\package-search-index.js = 1737742583003
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\search.html = 1737742583017
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\tag-search-index.js = 1737742583006
-C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\type-search-index.js = 1737742583004
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\generated-test-sources\test-annotations = 1737746234807
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\allclasses-index.html = 1737746237362
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\allpackages-index.html = 1737746237364
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\element-list = 1737746237331
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\help-doc.html = 1737746237384
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\index-all.html = 1737746237377
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\index.html = 1737746237381
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\member-search-index.js = 1737746237368
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\module-search-index.js = 1737746237366
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\overview-tree.html = 1737746237354
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\package-search-index.js = 1737746237367
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\search.html = 1737746237379
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\tag-search-index.js = 1737746237369
+C:\Users\nieve\Desktop\Sofware Quality and Project Management\Labs\Lab 1\BinaryCalculator\target\site\testapidocs\type-search-index.js = 1737746237367
