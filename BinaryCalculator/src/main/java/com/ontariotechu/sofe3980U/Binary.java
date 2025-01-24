@@ -100,4 +100,20 @@ public class Binary
 
 		return new Binary(result.toString()); //Reformatting as Binary
 	}
+
+	public static Binary and(Binary num1,Binary num2)
+	{
+		int maxLength = Math.max(num1.number.length(), num2.number.length());   //Make sure both binary numbers have the same number of bits
+		String bin1 = String.format("%" + maxLength + "s", num1.number).replace(' ','0');   //Padding with zeros to make sure they have the same bit count
+		String bin2 = String.format("%" + maxLength + "s", num2.number).replace(' ','0');
+
+		StringBuilder result = new StringBuilder();
+		for(int i = 0; i < maxLength; i++) { //loop through all digits in both numbers
+			char bit1 = bin1.charAt(i);
+			char bit2 = bin2.charAt(i);
+			result.append((bit1 == '1' && bit2 == '1') ? '1' : '0'); // Compare bits
+		}
+
+		return new Binary(result.toString()); //Reformatting as Binary
+	}
 }

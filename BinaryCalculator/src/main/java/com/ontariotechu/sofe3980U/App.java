@@ -26,5 +26,8 @@ public class App
 
         Binary or = Binary.or(binary1, binary2);
         System.out.println("When both are passed through an OR gate: " + or.getValue());
+
+        Binary and = Binary.and(binary1, binary2);
+        System.out.println("When both are passed through an AND gate: " + and.getValue());
     }
 }
